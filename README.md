@@ -4,8 +4,6 @@
 
 # AI-Powered MSME Financial Health & Loan Recommendation Platform #
 
-This contains everything you need to run your app locally.
-
 View the app demo: https://finnova.ai.studio/
 
 ## Run Locally
@@ -15,6 +13,7 @@ View the app demo: https://finnova.ai.studio/
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Rename [.env.example](.env.example) to [.env.local](.env.local)
+3. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+4. Run the app:
    `npm run dev`
