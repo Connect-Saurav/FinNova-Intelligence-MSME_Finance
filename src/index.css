@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617;
+    color: #e2e8f0;
+  }
+}
+
+/* Custom glowing borders and shadows for the Bento Grid look */
+.bento-glow-indigo {
+  box-shadow: 0 0 20px -5px rgba(99, 102, 241, 0.15);
+}
+
+.bento-glow-emerald {
+  box-shadow: 0 0 20px -5px rgba(16, 185, 129, 0.15);
+}
+
+.bento-glow-teal {
+  box-shadow: 0 0 25px -3px rgba(20, 184, 166, 0.2), 0 0 15px -3px rgba(45, 212, 191, 0.1);
+}
+
+.bento-glow-gold {
+  box-shadow: 0 0 25px -3px rgba(223, 177, 91, 0.25), 0 0 15px -3px rgba(245, 158, 11, 0.15);
+}
+
+/* Custom scrollbars for a console-like dark feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+/* Sparkle glow animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px rgba(45, 212, 191, 0.4));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(223, 177, 91, 0.8));
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s infinite;
+}
+

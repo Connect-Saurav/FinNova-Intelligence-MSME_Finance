@@ -1,0 +1,6 @@
+{
+  "name": "MSME Financial Health Card Platform",
+  "description": "FinNova Intelligence is a fintech innovation and research driven team focused on developing intelligent solutions for the evolving banking and financial services ecosystem. Bridging SME credit, finance, and technology to create impactful solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
