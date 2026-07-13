@@ -2,11 +2,11 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/Connect-Saurav/FinNova-Intelligence-MSME_Finance/blob/main/src/assets/images/Banner.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# AI-Powered MSME Financial Health & Loan Recommendation Platform #
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/8478639c-663f-4092-82ed-9964dca818b9
+View the app demo: https://finnova.ai.studio/
 
 ## Run Locally
 
