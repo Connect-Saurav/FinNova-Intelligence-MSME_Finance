@@ -6,11 +6,12 @@
 
 View the app demo: https://finnova.ai.studio/
 
+<img alt="Process Flow" src="https://github.com/Connect-Saurav/FinNova-Intelligence-MSME_Finance/blob/main/src/assets/images/Process_flow.jpg" />
+
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
-
-<img alt="Process Flow" src="https://github.com/Connect-Saurav/FinNova-Intelligence-MSME_Finance/blob/main/src/assets/images/Process_flow.jpg" />
 
 1. Install dependencies:
    `npm install`
